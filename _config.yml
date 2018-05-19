@@ -1,0 +1,36 @@
+url: ""
+baseurl: ""
+
+lang: en_US
+
+title: Your nickname
+author: Your nickname
+description: "First element &nbsp;&bull;&nbsp; Second element"
+
+plugins:
+  - "jekyll-seo-tag"
+
+socials:
+  - name: "Twitter"
+    url: "https://twitter.com"
+    icon: "fa-twitter"
+  - name: "Facebook"
+    url: "https://facebook.com"
+    icon: "fa-facebook"
+  - name: "GitHub"
+    url: "https://github.com"
+    icon: "fa-github"
+  - name: "Telegram"
+    url: "https://telegram.com"
+    icon: "fa-telegram"
+  - name: "Email"
+    url: "mailto:mail@example.com"
+    icon: "fa-envelope-o"
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - CNAME
+  - LICENSE
+  - .gitignore
+  - README.md
