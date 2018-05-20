@@ -1,4 +1,4 @@
-# jekyll-mini
+# jekyll-mini [![Build Status](https://travis-ci.org/kacperduras/jekyll-mini.svg?branch=master)](https://travis-ci.org/kacperduras/jekyll-mini)
 
 The [Mini](https://github.com/TheAdrik/Mini) website template, rewritten for [Jekyll](https://github.com/jekyll/jekyll) :)
 
