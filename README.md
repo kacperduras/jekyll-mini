@@ -9,9 +9,6 @@ Demo is available [here](https://kacperduras.github.io/jekyll-mini/).
 
 I recommend using [jekyll-remote-theme](https://github.com/benbalter/jekyll-remote-theme), example configuration:
 ```yaml
-url: ""
-baseurl: ""
-
 lang: en_US
 
 title: Your nickname
