@@ -6,7 +6,33 @@
   </head>
 
   <body>
-    {{ content }}
+    <div id="wrapper">
+      <div id="main">
+
+        <header id="header">
+          <h1>{{ site.title }}</h1>
+          <p>{{ site.description }}</p>
+
+          {% if site.socials.size %}
+            <nav>
+              <ul>
+
+                {% for social in site.socials %}
+                  <li>
+                    <a href="{{ social.url }}" class="icon {{ social.icon }}">
+                      <span class="label">{{ social.name }}</span>
+                    </a>
+                  </li>
+                {% endfor %}
+
+              </ul>
+            </nav>
+          {% endif %}
+
+        </header>
+
+      </div>
+    </div>
   </body>
 
 </html>
